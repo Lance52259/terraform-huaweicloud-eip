@@ -1,0 +1,18 @@
+{
+	"region_name": "cn-north-4",
+	"enterprise_project_id": "0",
+	"eip_publicip_configuration": [
+        {
+			"type": "5_bgp",
+			"ip_version": "4"
+		}
+	],
+	"eip_bandwidth_configuration": [
+        {
+			"share_type": "PER",
+			"name": "EIP-Bandwidth-Test",
+			"size": 5
+		}
+	],
+	"eip_name": "EIP-IPv4-PublicIP-Test"
+}
